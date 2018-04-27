@@ -1,0 +1,18 @@
+bash: ./qn1.sh
+
+awk: awk -f qn1.awk
+
+python: python q1.py
+
+latex: pdflatex q1.tex
+       latex q1.tex
+       dvipdfm q1.dvi
+
+make: make
+      make (specific thing we wanna make)
+
+gnuplot: gnuplot lineplot.p
+
+R: Rscript q1.r
+
+octave: octave q1.m
